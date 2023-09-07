@@ -6,7 +6,7 @@ hostname = socket.gethostname()
 
 print('-------------------')
 
-pm = pymem.Pymem('RobloxPlayerBeta.exe')
+pm = pymem.Pymem('RobloxPlayerBeta.exe') # <--- your process here
 print(f'\nprocess base: {pm.process_base}')
 print(f'process handle: {pm.process_handle}')
 print(f'process id: {pm.process_id}')
