@@ -2,15 +2,13 @@ import dearpygui.dearpygui as gui
 import pymem
 
 print('-------------------')
-print('[+]')
-print('-------------------')
-print('[+]')
-print('-------------------')
 
 pm = pymem.Pymem('RobloxPlayerBeta.exe')
 print(f'process base: {pm.process_base}')
 print(f'process handle: {pm.process_handle}')
 print(f'process id: {pm.process_id}')
+
+print('-------------------')
 
 gui.create_context()
 gui.create_viewport(title='[+]', width=300, height=360)
